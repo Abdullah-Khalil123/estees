@@ -1,0 +1,1811 @@
+{
+  "total": 4,
+  "first": "https://api.idxbroker.com/clients/featured?offset=0",
+  "last": "https://api.idxbroker.com/clients/featured?offset=0",
+  "next": null,
+  "previous": null,
+  "data": {
+    "b067!%22617530": {
+      "acres": "0.27",
+      "address": "6510 W Antler Bend Place",
+      "advanced": {
+        "gas": [
+          "Natural"
+        ],
+        "roof": [
+          "Tile"
+        ],
+        "view": [
+          "None"
+        ],
+        "model": "Catalina C",
+        "sewer": [
+          "Sewer Connected"
+        ],
+        "levels": [
+          "One"
+        ],
+        "cooling": [
+          "Central Air",
+          "Ceiling Fans"
+        ],
+        "country": [
+          "US"
+        ],
+        "fencing": [
+          "Block"
+        ],
+        "heating": [
+          "Forced Air",
+          "Natural Gas"
+        ],
+        "horseYN": "no",
+        "taxYear": 2025,
+        "flooring": [
+          "Carpet",
+          "Ceramic Tile"
+        ],
+        "coolingYN": "yes",
+        "extraRoom": [
+          "None"
+        ],
+        "heatingYN": "yes",
+        "mlsStatus": [
+          "Active"
+        ],
+        "rvParking": [
+          "None"
+        ],
+        "appliances": [
+          "Tankless Water Heater",
+          "Exhaust Fan",
+          "Refrigerator",
+          "Gas Cooktop",
+          "Microwave"
+        ],
+        "basementYN": "no",
+        "directions": "I-10 NW to Tangerine Rd (Exit 240), E on Tangerine 6mi to Dove Mountain Blvd, L/N then follow bend W 5mi to Los Saguaros Dr. Through gate, R on Whispering Windmill Ln to Lacey Cloud Wy, L on Winding Mill Ln to entrance.",
+        "highSchool": [
+          "Mountain View"
+        ],
+        "livingArea": 2598,
+        "technology": [
+          "High Speed Internet",
+          "Smart Thermostat"
+        ],
+        "diningAreas": [
+          "Breakfast Bar",
+          "Breakfast Nook"
+        ],
+        "disclosures": [
+          "Insurance Claims History Report",
+          "Seller Prop Disclosure"
+        ],
+        "fireplaceYN": "no",
+        "livingAreas": [
+          "Great Room"
+        ],
+        "lotFeatures": [
+          "Decorative Gravel",
+          "Sprinklers In Front",
+          "East/West Exposure"
+        ],
+        "lotSizeArea": 0.27,
+        "spaFeatures": [
+          "None"
+        ],
+        "waterHeater": [
+          "Tankless Water Heater"
+        ],
+        "waterSource": [
+          "Public"
+        ],
+        "garageSpaces": 3,
+        "listingTerms": [
+          "FHA",
+          "VA Loan",
+          "Conventional",
+          "Cash"
+        ],
+        "lotSizeUnits": [
+          "Acres"
+        ],
+        "mlsAreaMajor": [
+          "Northwest"
+        ],
+        "mlsAreaMinor": [
+          "Northwest"
+        ],
+        "poolFeatures": [
+          "None"
+        ],
+        "associationYN": "yes",
+        "carportSpaces": 0,
+        "coveredSpaces": 3,
+        "landscapeRear": [
+          "Low Care",
+          "Desert Plantings",
+          "Decorative Gravel",
+          "Artificial Turf"
+        ],
+        "lotSizeSource": [
+          "Other"
+        ],
+        "associationFee": 108,
+        "directionFaces": [
+          "Southeast"
+        ],
+        "landscapeFront": [
+          "Low Care",
+          "Desert Plantings",
+          "Decorative Gravel",
+          "Sprinkler/Drip"
+        ],
+        "windowCovering": [
+          "Stay"
+        ],
+        "fireplacesTotal": 0,
+        "guestFacilities": [
+          "None"
+        ],
+        "laundryFeatures": [
+          "Laundry Room"
+        ],
+        "roadSurfaceType": [
+          "Paved"
+        ],
+        "submitWithOffer": [
+          "HOA Addendum",
+          "Loan Pre-Qual"
+        ],
+        "taxAnnualAmount": 6243,
+        "attachedGarageYN": "yes",
+        "elementarySchool": [
+          "Dove Mountain CSTEM K-8"
+        ],
+        "interiorFeatures": [
+          "Walk-In Closet(s)",
+          "High Ceilings"
+        ],
+        "livingAreaSource": [
+          "Floor Plan"
+        ],
+        "communityFeatures": [
+          "Paved Street",
+          "Sidewalks",
+          "Park",
+          "Walking Trail"
+        ],
+        "fireplaceFeatures": [
+          "None"
+        ],
+        "garagecarportFeat": [
+          "Attached Garage/Carport"
+        ],
+        "interiorFeatures2": [
+          "Split Bedroom Plan",
+          "Walk-In Closet(s)",
+          "High Ceilings"
+        ],
+        "lotSizeDimensions": "140X73X140X96",
+        "lotSizeSquareFeet": 11772,
+        "seniorCommunityYN": "no",
+        "specialConditions": [
+          "None"
+        ],
+        "architecturalStyle": [
+          "Contemporary"
+        ],
+        "highSchoolDistrict": [
+          "Marana"
+        ],
+        "roadResponsibility": [
+          "HOA"
+        ],
+        "associationAmenities": [
+          "Maintenance",
+          "Clubhouse",
+          "Park"
+        ],
+        "middleOrJuniorSchool": [
+          "Dove Mountain CSTEM K-8"
+        ],
+        "accessibilityFeatures": [
+          "Door Levers"
+        ],
+        "bathroomsTotalDecimal": 2.5,
+        "constructionMaterials": [
+          "Frame - Stucco"
+        ],
+        "patioAndPorchFeatures": [
+          "Covered",
+          "Patio"
+        ],
+        "associationFeeIncludes": [
+          "Common Area Maint",
+          "Street Maint"
+        ],
+        "sourceSystemPlatformId": "T00000052",
+        "associationFeeFrequency": [
+          "Annually"
+        ],
+        "primaryBathroomFeatures": [
+          "Double Vanity",
+          "Shower Only",
+          "Exhaust Fan"
+        ],
+        "subdivisionRestrictCcRs": [
+          "Yes"
+        ],
+        "sourceSystemPlatformName": "Flexmls",
+        "specialListingConditions": [
+          "None"
+        ],
+        "locationTaxLegalCommunity": [
+          "Dove Mountain"
+        ],
+        "additionalBathroomFeatures": [
+          "Shower & Tub",
+          "Double Vanity",
+          "Powder Room",
+          "Exhaust Fan"
+        ],
+        "originatingSystemPlatformId": "T00000052",
+        "originatingSystemPlatformName": "Flexmls",
+        "subdivisionRestrictAgeRestrictions": [
+          "No"
+        ],
+        "subdivisionRestrictDeedRestrictions": [
+          "Yes"
+        ]
+      },
+      "bedrooms": 4,
+      "cityID": 28402,
+      "cityName": "Marana",
+      "countyID": 507,
+      "countyName": "Pima",
+      "dateAdded": "2026-07-16T14:44:32+00:00",
+      "dateModified": "2026-09-21T18:25:22+00:00",
+      "detailsURL": "b067/22617530",
+      "detailsUrlSlug": "6510-W-Antler-Bend-Place-Marana-85653",
+      "displayAddress": "y",
+      "featured": "y",
+      "fullBaths": 2,
+      "fullDetailsURL": "https://search.esteeshomesaz.com/idx/details/listing/b067/22617530/6510-W-Antler-Bend-Place-Marana-85653",
+      "halfBaths": 1,
+      "idxID": "b067",
+      "idxPropType": "Residential",
+      "idxStatus": "active",
+      "image": {
+        "0": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132128062383000000-o.jpg",
+          "sizes": [],
+          "caption": "Front Exterior"
+        },
+        "1": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132128917904000000-o.jpg",
+          "sizes": [],
+          "caption": "Front Exterior"
+        },
+        "2": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132137658152000000-o.jpg",
+          "sizes": [],
+          "caption": "Back Exterior"
+        },
+        "3": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132130366527000000-o.jpg",
+          "sizes": [],
+          "caption": "Front Exterior"
+        },
+        "4": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132131465912000000-o.jpg",
+          "sizes": [],
+          "caption": "Front Exterior"
+        },
+        "5": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132132533359000000-o.jpg",
+          "sizes": [],
+          "caption": "Front Exterior"
+        },
+        "6": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132133651905000000-o.jpg",
+          "sizes": [],
+          "caption": "Aerial"
+        },
+        "7": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132136693670000000-o.jpg",
+          "sizes": [],
+          "caption": "Aerial"
+        },
+        "8": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132138994828000000-o.jpg",
+          "sizes": [],
+          "caption": "Back Exterior"
+        },
+        "9": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132141509295000000-o.jpg",
+          "sizes": [],
+          "caption": "Back Exterioe"
+        },
+        "10": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132145485919000000-o.jpg",
+          "sizes": [],
+          "caption": "16-web-or-mls-6510_West_Antler_Bend_Plac"
+        },
+        "11": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132146401128000000-o.jpg",
+          "sizes": [],
+          "caption": "Kitchen"
+        },
+        "12": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132147187232000000-o.jpg",
+          "sizes": [],
+          "caption": "Kitchen"
+        },
+        "13": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132155703448000000-o.jpg",
+          "sizes": [],
+          "caption": "Kitchen"
+        },
+        "14": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132149150982000000-o.jpg",
+          "sizes": [],
+          "caption": "Kitchen"
+        },
+        "15": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132150525198000000-o.jpg",
+          "sizes": [],
+          "caption": "Kitchen"
+        },
+        "16": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132151498999000000-o.jpg",
+          "sizes": [],
+          "caption": "Kitchen"
+        },
+        "17": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132152942573000000-o.jpg",
+          "sizes": [],
+          "caption": "Kitchen"
+        },
+        "18": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132153764197000000-o.jpg",
+          "sizes": [],
+          "caption": "Kitchen"
+        },
+        "19": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132154711831000000-o.jpg",
+          "sizes": [],
+          "caption": "Kitchen"
+        },
+        "20": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132157080193000000-o.jpg",
+          "sizes": [],
+          "caption": "Dining Area"
+        },
+        "21": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132158079197000000-o.jpg",
+          "sizes": [],
+          "caption": "Dining Area"
+        },
+        "22": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132200245044000000-o.jpg",
+          "sizes": [],
+          "caption": "Living Room"
+        },
+        "23": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132201329417000000-o.jpg",
+          "sizes": [],
+          "caption": "Living Room"
+        },
+        "24": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132207270322000000-o.jpg",
+          "sizes": [],
+          "caption": "Primary Bedroom"
+        },
+        "25": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132206221805000000-o.jpg",
+          "sizes": [],
+          "caption": "Primary Bedroom"
+        },
+        "26": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132218052810000000-o.jpg",
+          "sizes": [],
+          "caption": "Primary Bath"
+        },
+        "27": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132220791507000000-o.jpg",
+          "sizes": [],
+          "caption": "Primary Bath"
+        },
+        "28": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132217176356000000-o.jpg",
+          "sizes": [],
+          "caption": "Primary Bath"
+        },
+        "29": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132216199352000000-o.jpg",
+          "sizes": [],
+          "caption": "Primary Bath"
+        },
+        "30": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132211610676000000-o.jpg",
+          "sizes": [],
+          "caption": "Primary Closet"
+        },
+        "31": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132212431671000000-o.jpg",
+          "sizes": [],
+          "caption": "Primary Closet"
+        },
+        "32": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132205265853000000-o.jpg",
+          "sizes": [],
+          "caption": "Guest Room 1"
+        },
+        "33": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132210772164000000-o.jpg",
+          "sizes": [],
+          "caption": "Guest Room 1"
+        },
+        "34": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132203338858000000-o.jpg",
+          "sizes": [],
+          "caption": "Guest Room 2"
+        },
+        "35": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132209679052000000-o.jpg",
+          "sizes": [],
+          "caption": "Guest Room 2"
+        },
+        "36": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132218924989000000-o.jpg",
+          "sizes": [],
+          "caption": "Guest athroom"
+        },
+        "37": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132219878220000000-o.jpg",
+          "sizes": [],
+          "caption": "Guest Bathroom"
+        },
+        "38": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716133534990538000000-o.jpg",
+          "sizes": [],
+          "caption": "Laundry Room"
+        },
+        "39": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132215204399000000-o.jpg",
+          "sizes": [],
+          "caption": "Garage"
+        },
+        "40": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716135305185558000000-o.jpg",
+          "sizes": [],
+          "caption": "New Pool"
+        },
+        "41": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716135307920635000000-o.jpg",
+          "sizes": [],
+          "caption": "Extended Covered Patio"
+        },
+        "42": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716135309432051000000-o.jpg",
+          "sizes": [],
+          "caption": "Extended Covered Patio"
+        },
+        "43": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716135258596855000000-o.jpg",
+          "sizes": [],
+          "caption": "Sparkling Pool"
+        },
+        "44": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716135300065204000000-o.jpg",
+          "sizes": [],
+          "caption": "Sparkling Pool"
+        },
+        "45": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716135306640120000000-o.jpg",
+          "sizes": [],
+          "caption": "Backyard"
+        },
+        "46": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716135301150964000000-o.jpg",
+          "sizes": [],
+          "caption": "Extended Covered Patio"
+        },
+        "47": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716135302275759000000-o.jpg",
+          "sizes": [],
+          "caption": "Extended Covered Patio"
+        },
+        "48": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716135303902636000000-o.jpg",
+          "sizes": [],
+          "caption": "Back Exterior"
+        },
+        "49": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260716132142849184000000-o.jpg",
+          "sizes": [],
+          "caption": "Aerial"
+        },
+        "totalCount": 50
+      },
+      "latitude": 32.459856,
+      "listingAgentID": "52176",
+      "listingID": "22617530",
+      "listingOfficeID": "495204",
+      "listingPrice": "$649,999",
+      "longitude": -111.104092,
+      "mediaData": {
+        "vt": [
+          {
+            "id": "vtURL",
+            "url": "https://www.zillow.com/view-imx/2cc8e314-284f-499d-bc46-32927b0804c2?wl=true&setAttribution=mls&initialViewType=pano",
+            "text": "",
+            "listingID": "22617530"
+          }
+        ]
+      },
+      "mlsPhotoCount": 50,
+      "mlsPtID": 1,
+      "narContact": "520-912-3018",
+      "ohCount": 0,
+      "parentPtID": 1,
+      "partialBaths": 1,
+      "price": 649999,
+      "priceBeforeReduction": 655000,
+      "priceData": {
+        "value": {
+          "raw": 649999,
+          "formatted": "$649,999"
+        },
+        "type": "active",
+        "label": "Price",
+        "field": "listingPrice"
+      },
+      "priceReductionDate": "2026-09-09T00:04:14+00:00",
+      "propStatus": "Active",
+      "propSubType": "Single Family Residence",
+      "propType": "Residential",
+      "remarksConcat": "Motivated seller! There is a particular kind of evening that happens here, when the sun drops behind the Tortolita Mountains and the sky turns gold to rose to blue, while you are still in the pool. That is the evening this home was built for. This 2023 Lennar Catalina C sits on a premium 0.27 acre homesite in gated Los Saguaros at Dove Mountain, now with a brand new freeform pool and travertine decking as the showstopper. Inside, an open Great Room flows to a kitchen with granite counters, gas cooktop, and walk in pantry. Split floor plan, spa inspired owner's suite, dual walk in closets, flex den. Smart home features throughout. Gated community with clubhouse, park, and trails. Move in ready. Seller will cover 1 year of HOA dues! There is a particular kind of evening that happens in Dove Mountain, when the sun drops behind the Tortolita Mountains and the sky turns from gold to rose to deep blue, all while you are still in the pool. That is the evening this home was built for.Set on a premium 0.27 acre homesite in the gated community of Los Saguaros at Dove Mountain, 6510 W Antler Bend Place has just added the one feature every buyer wants and few listings actually have: a brand new pool, freeform in shape with a soft pebble finish and travertine decking Throughout the backyard. A turfed side yard rounds out the space, giving kids or pets somewhere to run while the adults enjoy the view. An extended covered patio complete a backyard built for actual living, not just looking at.Inside, the 2,598 square foot Catalina C floor plan by Lennar lives like new because it practically is, completed in 2024. An open Great Room connects to a kitchen built for real cooking and real gathering, with granite counters, a gas cooktop, stainless appliances, a walk in pantry, and a generous center island that overlooks the dining area and covered patio beyond. The split bedroom design places two secondary bedrooms and a flexible den away from the owner's suite, which offers a spa inspired bath with dual vanities and dual walk in closets, a true retreat at the end of the day.Smart home touches come standard throughout: a Honeywell Z-Wave thermostat, smart front door lock, along with a tankless water heater for efficiency and comfort in every season.Los Saguaros at Dove Mountain offers gated privacy, a community clubhouse, a park, and walking trails, all just minutes from Dove Mountain's golf courses and the growing shops and restaurants of Marana. This is move in ready living with the one upgrade that changes everything: your own resort just outside the back door.",
+      "rntLse": "neither",
+      "rntLsePrice": 649999,
+      "sqFt": "2,598",
+      "state": "Arizona",
+      "streetDirection": "W",
+      "streetName": "Antler Bend Place",
+      "streetNumber": "6510",
+      "subdivision": "Los Saguaros At Dove Mountain SQ20121640199",
+      "totalBaths": 3,
+      "viewCount": 50,
+      "vtCount": 1,
+      "yearBuilt": 2023,
+      "zipcode": "85653",
+      "zoning": "Marana - F"
+    },
+    "b067!%22531606": {
+      "acres": "0.12",
+      "address": "13149 E Iron Chief Drive",
+      "advanced": {
+        "gas": [
+          "Natural"
+        ],
+        "roof": [
+          "Tile"
+        ],
+        "view": [
+          "None"
+        ],
+        "sewer": [
+          "Sewer Connected"
+        ],
+        "levels": [
+          "One"
+        ],
+        "cooling": [
+          "Central Air",
+          "Ceiling Fans"
+        ],
+        "country": [
+          "US"
+        ],
+        "fencing": [
+          "Block"
+        ],
+        "heating": [
+          "Electric"
+        ],
+        "horseYN": "no",
+        "taxYear": 2024,
+        "flooring": [
+          "Carpet"
+        ],
+        "coolingYN": "yes",
+        "extraRoom": [
+          "Den",
+          "Bonus Room"
+        ],
+        "heatingYN": "yes",
+        "mlsStatus": [
+          "Active"
+        ],
+        "rvParking": [
+          "None"
+        ],
+        "utilities": [
+          "Pre-Wired Tele Lines"
+        ],
+        "appliances": [
+          "Dishwasher",
+          "Disposal",
+          "Microwave"
+        ],
+        "basementYN": "no",
+        "directions": "Valencia/Houghton. East. Valencia Rd. becomes E. Old Spanish Trl. South on Rocking K Ranch Loop Thru gate East on Iron Chief Dr.",
+        "highSchool": [
+          "Cienega"
+        ],
+        "livingArea": 1745,
+        "technology": [
+          "Cable TV",
+          "High Speed Internet",
+          "Pre-Wired Tele Lines"
+        ],
+        "diningAreas": [
+          "Breakfast Bar",
+          "Dining Area"
+        ],
+        "disclosures": [
+          "Insurance Claims History Report",
+          "Seller Prop Disclosure"
+        ],
+        "fireplaceYN": "no",
+        "livingAreas": [
+          "Living Room"
+        ],
+        "lotFeatures": [
+          "Decorative Gravel",
+          "Subdivided"
+        ],
+        "lotSizeArea": 0.12,
+        "spaFeatures": [
+          "None"
+        ],
+        "waterHeater": [
+          "Natural Gas"
+        ],
+        "waterSource": [
+          "Public"
+        ],
+        "garageSpaces": 2,
+        "listingTerms": [
+          "FHA",
+          "VA Loan",
+          "Conventional",
+          "Cash"
+        ],
+        "lotSizeUnits": [
+          "Acres"
+        ],
+        "mlsAreaMajor": [
+          "Upper Southeast"
+        ],
+        "mlsAreaMinor": [
+          "Upper Southeast"
+        ],
+        "poolFeatures": [
+          "None"
+        ],
+        "associationYN": "yes",
+        "carportSpaces": 0,
+        "coveredSpaces": 2,
+        "landscapeRear": [
+          "Low Care",
+          "Desert Plantings",
+          "Decorative Gravel",
+          "Sprinkler/Drip",
+          "Artificial Turf"
+        ],
+        "lotSizeSource": [
+          "Appraiser"
+        ],
+        "associationFee": 99,
+        "directionFaces": [
+          "South"
+        ],
+        "landscapeFront": [
+          "Low Care",
+          "Desert Plantings",
+          "Decorative Gravel"
+        ],
+        "windowCovering": [
+          "Stay"
+        ],
+        "windowFeatures": [
+          "Double Pane Windows"
+        ],
+        "associationName": "AAM,LLC",
+        "fireplacesTotal": 0,
+        "guestFacilities": [
+          "None"
+        ],
+        "laundryFeatures": [
+          "Laundry Room"
+        ],
+        "parkingFeatures": [
+          "Garage Door Opener"
+        ],
+        "roadSurfaceType": [
+          "Paved"
+        ],
+        "submitWithOffer": [
+          "HOA Addendum",
+          "Loan Pre-Qual"
+        ],
+        "taxAnnualAmount": 3303.34,
+        "windowFeatures2": [
+          "Double Pane Windows"
+        ],
+        "attachedGarageYN": "yes",
+        "elementarySchool": [
+          "Ocotillo Ridge"
+        ],
+        "interiorFeatures": [
+          "Kitchen Island",
+          "High Ceilings"
+        ],
+        "livingAreaSource": [
+          "Appraiser"
+        ],
+        "communityFeatures": [
+          "Basketball Court",
+          "Gated",
+          "Sidewalks",
+          "Park",
+          "Walking Trail",
+          "Pickleball"
+        ],
+        "fireplaceFeatures": [
+          "None"
+        ],
+        "garagecarportFeat": [
+          "Electric Door Opener",
+          "Attached Garage/Carport"
+        ],
+        "interiorFeatures2": [
+          "Ceiling Fan(s)",
+          "High Ceilings"
+        ],
+        "lotSizeDimensions": "128x40x128x40",
+        "lotSizeSquareFeet": 5096,
+        "seniorCommunityYN": "no",
+        "specialConditions": [
+          "None"
+        ],
+        "architecturalStyle": [
+          "Contemporary"
+        ],
+        "highSchoolDistrict": [
+          "Vail"
+        ],
+        "roadResponsibility": [
+          "City"
+        ],
+        "middleOrJuniorSchool": [
+          "Old Vail"
+        ],
+        "accessibilityFeatures": [
+          "None"
+        ],
+        "bathroomsTotalDecimal": 2,
+        "constructionMaterials": [
+          "Frame - Stucco",
+          "Stucco",
+          "Wood Frame"
+        ],
+        "patioAndPorchFeatures": [
+          "Covered",
+          "Patio"
+        ],
+        "associationFeeIncludes": [
+          "Common Area Maint",
+          "Street Maint"
+        ],
+        "sourceSystemPlatformId": "T00000052",
+        "associationFeeFrequency": [
+          "Quarterly"
+        ],
+        "primaryBathroomFeatures": [
+          "Double Vanity"
+        ],
+        "subdivisionRestrictCcRs": [
+          "Yes"
+        ],
+        "sourceSystemPlatformName": "Flexmls",
+        "specialListingConditions": [
+          "None"
+        ],
+        "associationFeesHoaWebsite": "www.AssociatedAsset.com",
+        "originatingSystemPlatformId": "T00000052",
+        "originatingSystemPlatformName": "Flexmls",
+        "subdivisionRestrictAgeRestrictions": [
+          "No"
+        ],
+        "subdivisionRestrictDeedRestrictions": [
+          "No"
+        ]
+      },
+      "bedrooms": 3,
+      "cityID": 47065,
+      "cityName": "Tucson",
+      "countyID": 507,
+      "countyName": "Pima",
+      "dateAdded": "2026-02-25T23:49:33+00:00",
+      "dateModified": "2026-06-15T20:14:21+00:00",
+      "detailsURL": "b067/22531606",
+      "detailsUrlSlug": "13149-E-Iron-Chief-Drive-Tucson-85747",
+      "displayAddress": "y",
+      "featured": "y",
+      "fullBaths": 2,
+      "fullDetailsURL": "https://search.esteeshomesaz.com/idx/details/listing/b067/22531606/13149-E-Iron-Chief-Drive-Tucson-85747",
+      "halfBaths": 0,
+      "idxID": "b067",
+      "idxPropType": "Residential",
+      "idxStatus": "active",
+      "image": {
+        "0": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260206171757420275000000-o.jpg",
+          "sizes": [],
+          "caption": "Front Exterior"
+        },
+        "1": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260206171741309294000000-o.jpg",
+          "sizes": [],
+          "caption": "Front Exterior"
+        },
+        "2": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20251211021416001327000000-o.jpg",
+          "sizes": [],
+          "caption": "Front Exterior"
+        },
+        "3": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20251211021416157725000000-o.jpg",
+          "sizes": [],
+          "caption": "Kitchen"
+        },
+        "4": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20251211021416217222000000-o.jpg",
+          "sizes": [],
+          "caption": "Kitchen"
+        },
+        "5": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20251211021416276212000000-o.jpg",
+          "sizes": [],
+          "caption": "Primary Living Space"
+        },
+        "6": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20251211021416338941000000-o.jpg",
+          "sizes": [],
+          "caption": "Dining Area"
+        },
+        "7": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20251211021416402113000000-o.jpg",
+          "sizes": [],
+          "caption": "Dining Area"
+        },
+        "8": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20251211021416466394000000-o.jpg",
+          "sizes": [],
+          "caption": "Living Room"
+        },
+        "9": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20251211021416528470000000-o.jpg",
+          "sizes": [],
+          "caption": "Living Room"
+        },
+        "10": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20251211021416590379000000-o.jpg",
+          "sizes": [],
+          "caption": "Living Room"
+        },
+        "11": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20251211021416650269000000-o.jpg",
+          "sizes": [],
+          "caption": "Hallway/Entry"
+        },
+        "12": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20251211021416709859000000-o.jpg",
+          "sizes": [],
+          "caption": "Office Entry/Hallway"
+        },
+        "13": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20251211021416769428000000-o.jpg",
+          "sizes": [],
+          "caption": "Bedroom One/Office"
+        },
+        "14": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20251211021416834509000000-o.jpg",
+          "sizes": [],
+          "caption": "Secondary Bathroom"
+        },
+        "15": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20251211021416893466000000-o.jpg",
+          "sizes": [],
+          "caption": "Bedroom Two"
+        },
+        "16": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20251211021416955631000000-o.jpg",
+          "sizes": [],
+          "caption": "Bedroom Two"
+        },
+        "17": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20251211021417015431000000-o.jpg",
+          "sizes": [],
+          "caption": "Bedroom Three"
+        },
+        "18": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20251211021417077068000000-o.jpg",
+          "sizes": [],
+          "caption": "Bedroom Three"
+        },
+        "19": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20251211021417138221000000-o.jpg",
+          "sizes": [],
+          "caption": "Primary Bedroom"
+        },
+        "20": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20251211021417206181000000-o.jpg",
+          "sizes": [],
+          "caption": "Primary Bedroom"
+        },
+        "21": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20251211021417267634000000-o.jpg",
+          "sizes": [],
+          "caption": "Primary Bedroom"
+        },
+        "22": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20251211021417326394000000-o.jpg",
+          "sizes": [],
+          "caption": "Primary Bedroom"
+        },
+        "23": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20251211021417382878000000-o.jpg",
+          "sizes": [],
+          "caption": "Primary Bathroom"
+        },
+        "24": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20251211021417440612000000-o.jpg",
+          "sizes": [],
+          "caption": "Inside Laundry"
+        },
+        "25": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20251211021417500122000000-o.jpg",
+          "sizes": [],
+          "caption": "Backyard"
+        },
+        "26": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20251211021417567061000000-o.jpg",
+          "sizes": [],
+          "caption": "Patio"
+        },
+        "27": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20251211021417633385000000-o.jpg",
+          "sizes": [],
+          "caption": "Patio"
+        },
+        "28": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20251211021417701490000000-o.jpg",
+          "sizes": [],
+          "caption": "Backyard"
+        },
+        "29": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20251211021417768999000000-o.jpg",
+          "sizes": [],
+          "caption": "Pergola"
+        },
+        "30": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20251211021418230684000000-o.jpg",
+          "sizes": [],
+          "caption": "Drone View"
+        },
+        "31": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260207151101036395000000-o.jpg",
+          "sizes": [],
+          "caption": "Floorplan"
+        },
+        "32": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20251211021418294134000000-o.jpg",
+          "sizes": [],
+          "caption": "3D Lot View"
+        },
+        "33": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260206171824799230000000-o.jpg",
+          "sizes": [],
+          "caption": "Aerial"
+        },
+        "34": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260206171844160439000000-o.jpg",
+          "sizes": [],
+          "caption": "Aerial"
+        },
+        "35": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260206222634899597000000-o.jpg",
+          "sizes": [],
+          "caption": "Private Community Park"
+        },
+        "36": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260206222651281190000000-o.jpg",
+          "sizes": [],
+          "caption": "Private Community Park"
+        },
+        "37": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260206222721669458000000-o.jpg",
+          "sizes": [],
+          "caption": "Private Community Park"
+        },
+        "38": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260206222750294104000000-o.jpg",
+          "sizes": [],
+          "caption": "Private Community Park"
+        },
+        "39": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260207145609127286000000-o.jpg",
+          "sizes": [],
+          "caption": "Playground"
+        },
+        "40": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260207145701886168000000-o.jpg",
+          "sizes": [],
+          "caption": "Playground"
+        },
+        "41": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260207145919281720000000-o.jpg",
+          "sizes": [],
+          "caption": "Playground"
+        },
+        "42": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260207145949026563000000-o.jpg",
+          "sizes": [],
+          "caption": "Playground"
+        },
+        "43": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260207145958285975000000-o.jpg",
+          "sizes": [],
+          "caption": "Playground"
+        },
+        "44": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260207145929449766000000-o.jpg",
+          "sizes": [],
+          "caption": "Splash Pad"
+        },
+        "45": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260207145938052536000000-o.jpg",
+          "sizes": [],
+          "caption": "Splash Pad"
+        },
+        "totalCount": 46
+      },
+      "latitude": 32.10785,
+      "listingAgentID": "52176",
+      "listingID": "22531606",
+      "listingOfficeID": "495204",
+      "listingPrice": "$379,990",
+      "longitude": -110.711812,
+      "mediaData": [],
+      "mlsPhotoCount": 46,
+      "mlsPtID": 1,
+      "narContact": "520-912-3018",
+      "ohCount": 0,
+      "parentPtID": 1,
+      "partialBaths": 0,
+      "price": 379990,
+      "priceBeforeReduction": 384990,
+      "priceData": {
+        "value": {
+          "raw": 379990,
+          "formatted": "$379,990"
+        },
+        "type": "active",
+        "label": "Price",
+        "field": "listingPrice"
+      },
+      "priceReductionDate": "2026-05-15T00:10:17+00:00",
+      "propStatus": "Active",
+      "propSubType": "Single Family Residence",
+      "propType": "Residential",
+      "remarksConcat": "Seller to cover 1 year worth of HOA dues! Built in 2022, this modern masterpiece perfectly blends financial savvy w/ high-end luxury. Imagine mornings relaxing in the den and evenings in a kitchen featuring sleek quartz counters & a 5-burner gas range. Natural light pours through 9ft ceilings onto wood-look tile, leading you to a primary suite w/ Rincon Mountain views. Step outside to your private oasis: a landscaped yard with a Kool Deck patio, designed for sunset entertaining in the top-rated Vail School District. This is more than a house; it's a smart investment in the heart of Vail, AZ real estate. Experience mountain tranquility & modern comfort today!",
+      "rntLse": "neither",
+      "rntLsePrice": 379990,
+      "sqFt": "1,745",
+      "state": "Arizona",
+      "streetDirection": "E",
+      "streetName": "Iron Chief Drive",
+      "streetNumber": "13149",
+      "subdivision": "Rocking K South Neighborhood 1 Parcel D",
+      "totalBaths": 2,
+      "viewCount": 59,
+      "vtCount": 0,
+      "yearBuilt": 2022,
+      "zipcode": "85747",
+      "zoning": "Pima County - SP"
+    },
+    "b067!%22610912": {
+      "acres": "0.03",
+      "address": "7255 E Snyder Road 12205",
+      "advanced": {
+        "gas": [
+          "None"
+        ],
+        "sewer": [
+          "Sewer Connected"
+        ],
+        "levels": [
+          "One"
+        ],
+        "cooling": [
+          "Central Air",
+          "Ceiling Fan(s)"
+        ],
+        "country": [
+          "US"
+        ],
+        "heating": [
+          "Forced Air",
+          "Electric"
+        ],
+        "horseYN": "no",
+        "flooring": [
+          "Ceramic Tile"
+        ],
+        "coolingYN": "yes",
+        "extraRoom": [
+          "None"
+        ],
+        "furnished": [
+          "Furnished"
+        ],
+        "heatingYN": "yes",
+        "mlsStatus": [
+          "Active"
+        ],
+        "appliances": [
+          "Disposal",
+          "Dishwasher",
+          "Refrigerator",
+          "Electric Range",
+          "Electric Oven"
+        ],
+        "directions": "From Sunrise to Kolb, South to Sabino Canyon Road. East to Villas at Sabino Canyon Condos. Need GATE CODE to enter.",
+        "highSchool": [
+          "Catalina Fthls"
+        ],
+        "livingArea": 1152,
+        "ownerTerms": [
+          "1 Year Lease"
+        ],
+        "utilities2": [
+          "Tenant Pays"
+        ],
+        "diningAreas": [
+          "Dining Area"
+        ],
+        "fireplaceYN": "no",
+        "livingAreas": [
+          "Living Room"
+        ],
+        "lotSizeArea": 1176,
+        "spaFeatures": [
+          "None"
+        ],
+        "waterHeater": [
+          "Electric"
+        ],
+        "waterSource": [
+          "Public"
+        ],
+        "garageSpaces": 0,
+        "mlsAreaMajor": [
+          "North"
+        ],
+        "mlsAreaMinor": [
+          "North"
+        ],
+        "poolFeatures": [
+          "None"
+        ],
+        "carportSpaces": 0,
+        "coveredSpaces": 0,
+        "lotSizeSource": [
+          "Assessor"
+        ],
+        "windowCovering": [
+          "Stay"
+        ],
+        "fireplacesTotal": 0,
+        "guestFacilities": [
+          "None"
+        ],
+        "laundryFeatures": [
+          "Washer Included",
+          "Dryer Included"
+        ],
+        "elementarySchool": [
+          "Canyon View"
+        ],
+        "livingAreaSource": [
+          "Assessor"
+        ],
+        "interiorFeatures2": [
+          "Ceiling Fan(s)"
+        ],
+        "lotSizeDimensions": "Unknown",
+        "lotSizeSquareFeet": 1176,
+        "seniorCommunityYN": "no",
+        "zoningDescription": [
+          "Pima County - TR"
+        ],
+        "highSchoolDistrict": [
+          "Catalina Foothills"
+        ],
+        "middleOrJuniorSchool": [
+          "Esperero Canyon"
+        ],
+        "bathroomsTotalDecimal": 2,
+        "constructionMaterials": [
+          "Frame - Stucco"
+        ],
+        "associationFeeIncludes": [
+          "Common Area Maintenance",
+          "Gated Community"
+        ],
+        "sourceSystemPlatformId": "T00000052",
+        "primaryBathroomFeatures": [
+          "Shower and Tub"
+        ],
+        "sourceSystemPlatformName": "Flexmls",
+        "locationTaxLegalCommunity": [
+          "None"
+        ],
+        "additionalBathroomFeatures": [
+          "Shower and Tub"
+        ],
+        "originatingSystemPlatformId": "T00000052",
+        "subdivisionRestrictionsCcRs2": [
+          "Yes"
+        ],
+        "originatingSystemPlatformName": "Flexmls",
+        "subdivisionRestrictionsAgeRestrictions2": [
+          "No"
+        ]
+      },
+      "bedrooms": 3,
+      "cityID": 47065,
+      "cityName": "Tucson",
+      "countyID": 507,
+      "countyName": "Pima",
+      "dateAdded": "2026-04-28T07:16:20+00:00",
+      "dateModified": "2026-08-06T22:07:01+00:00",
+      "detailsURL": "b067/22610912",
+      "detailsUrlSlug": "7255-E-Snyder-Road-12205-Tucson-85750",
+      "displayAddress": "y",
+      "featured": "y",
+      "fullBaths": 2,
+      "fullDetailsURL": "https://search.esteeshomesaz.com/idx/details/listing/b067/22610912/7255-E-Snyder-Road-12205-Tucson-85750",
+      "halfBaths": 0,
+      "idxID": "b067",
+      "idxPropType": "Residential Lease",
+      "idxStatus": "active",
+      "image": {
+        "0": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260806214852506896000000-o.jpg",
+          "sizes": [],
+          "caption": "Exterior"
+        },
+        "1": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260806214855635584000000-o.jpg",
+          "sizes": [],
+          "caption": "Community Entrance"
+        },
+        "2": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260806215031380804000000-o.jpg",
+          "sizes": [],
+          "caption": "Living Space"
+        },
+        "3": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260806214911757777000000-o.jpg",
+          "sizes": [],
+          "caption": "Front Entrance"
+        },
+        "4": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260806215006901280000000-o.jpg",
+          "sizes": [],
+          "caption": "Front Door Entry"
+        },
+        "5": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260806215026032117000000-o.jpg",
+          "sizes": [],
+          "caption": "Living Space"
+        },
+        "6": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260806214955133289000000-o.jpg",
+          "sizes": [],
+          "caption": "Living Space"
+        },
+        "7": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260806215016418136000000-o.jpg",
+          "sizes": [],
+          "caption": "Living Space"
+        },
+        "8": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260806214941211646000000-o.jpg",
+          "sizes": [],
+          "caption": "Living Space"
+        },
+        "9": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260806214931271315000000-o.jpg",
+          "sizes": [],
+          "caption": "Living Space"
+        },
+        "10": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260806215120694640000000-o.jpg",
+          "sizes": [],
+          "caption": "Dining Area"
+        },
+        "11": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260806215110364875000000-o.jpg",
+          "sizes": [],
+          "caption": "Kitchen Entry"
+        },
+        "12": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260806215049364579000000-o.jpg",
+          "sizes": [],
+          "caption": "Kitchen"
+        },
+        "13": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260806215059726514000000-o.jpg",
+          "sizes": [],
+          "caption": "Kitchen"
+        },
+        "14": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260806214921665752000000-o.jpg",
+          "sizes": [],
+          "caption": "Hallway"
+        },
+        "15": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260806215132103910000000-o.jpg",
+          "sizes": [],
+          "caption": "Bedroom 1"
+        },
+        "16": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260806215137495090000000-o.jpg",
+          "sizes": [],
+          "caption": "Bedroom 1"
+        },
+        "17": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260806215143398331000000-o.jpg",
+          "sizes": [],
+          "caption": "Bedroom 1"
+        },
+        "18": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260806215153662899000000-o.jpg",
+          "sizes": [],
+          "caption": "Bedroom 2"
+        },
+        "19": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260806215159516312000000-o.jpg",
+          "sizes": [],
+          "caption": "Bedroom 2"
+        },
+        "20": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260806215206670316000000-o.jpg",
+          "sizes": [],
+          "caption": "Bedroom 2"
+        },
+        "21": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260806215310259692000000-o.jpg",
+          "sizes": [],
+          "caption": "Bathroom"
+        },
+        "22": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260806215319673487000000-o.jpg",
+          "sizes": [],
+          "caption": "Bathroom"
+        },
+        "23": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260806215248759283000000-o.jpg",
+          "sizes": [],
+          "caption": "Bedroom 3"
+        },
+        "24": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260806215216713288000000-o.jpg",
+          "sizes": [],
+          "caption": "Bedroom 3"
+        },
+        "25": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260806215222435375000000-o.jpg",
+          "sizes": [],
+          "caption": "Bedroom 3"
+        },
+        "26": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260806215229171793000000-o.jpg",
+          "sizes": [],
+          "caption": "Bedroom 3"
+        },
+        "27": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260806215239021869000000-o.jpg",
+          "sizes": [],
+          "caption": "Bedroom 3"
+        },
+        "28": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260806215348234155000000-o.jpg",
+          "sizes": [],
+          "caption": "Primary Bathroom"
+        },
+        "29": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260806215329836796000000-o.jpg",
+          "sizes": [],
+          "caption": "Primary Bathroom"
+        },
+        "30": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260806215338969208000000-o.jpg",
+          "sizes": [],
+          "caption": "Primary Bathroom"
+        },
+        "31": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260806215356834987000000-o.jpg",
+          "sizes": [],
+          "caption": "Laundry"
+        },
+        "32": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260806215408355305000000-o.jpg",
+          "sizes": [],
+          "caption": "Balcony"
+        },
+        "33": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260806220422151889000000-o.jpg",
+          "sizes": [],
+          "caption": "Balcony"
+        },
+        "34": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260806220433764518000000-o.jpg",
+          "sizes": [],
+          "caption": "Exterior"
+        },
+        "35": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260806220429505521000000-o.jpg",
+          "sizes": [],
+          "caption": "Exterior"
+        },
+        "36": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260806214859013557000000-o.jpg",
+          "sizes": [],
+          "caption": "Community Pool"
+        },
+        "37": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260806214902038844000000-o.jpg",
+          "sizes": [],
+          "caption": "Community Pool"
+        },
+        "totalCount": 38
+      },
+      "latitude": 32.295447,
+      "listingAgentID": "52176",
+      "listingID": "22610912",
+      "listingOfficeID": "495204",
+      "listingPrice": "$2,100",
+      "longitude": -110.838572,
+      "mediaData": [],
+      "mlsPhotoCount": 38,
+      "mlsPtID": 6,
+      "narContact": "520-912-3018",
+      "ohCount": 0,
+      "parentPtID": 3,
+      "partialBaths": 0,
+      "price": 2100,
+      "priceData": {
+        "value": {
+          "raw": 2100,
+          "formatted": "$2,100"
+        },
+        "type": "rental",
+        "label": "Rental Price",
+        "field": "rntLsePrice"
+      },
+      "propStatus": "Active",
+      "propSubType": "Condominium",
+      "propType": "Residential Lease",
+      "remarksConcat": "Imagine coming home to a peaceful, resort-style community tucked in the heart of the Catalina Foothills. This upstairs corner condo offers city views from your primary bedroom & covered balcony, granite countertops, stainless steel appliances, two full baths, & the convenience of an in-unit washer & dryer.The community delivers the lifestyle: a heated pool, spa, gym, & BBQ area -- all within a gated setting near world-class resorts, golf, popular restaurants, Sabino Canyon, & miles of scenic hiking trails.Pets welcome with landlord approval. Shaded parking included.This one won't last. See documents tab for full list of features. The condo is being rented as unfurnished. Current furnishings will be removed prior to occupancy.One year leasePets are ok with landlord approval",
+      "rntLse": "rental",
+      "rntLsePrice": 2100,
+      "sqFt": "1,152",
+      "state": "Arizona",
+      "streetDirection": "E",
+      "streetName": "Snyder Road",
+      "streetNumber": "7255",
+      "subdivision": "Villas at Sabino Canyon Condominiums",
+      "totalBaths": 2,
+      "unitNumber": "12205",
+      "viewCount": 9,
+      "vtCount": 0,
+      "yearBuilt": 1995,
+      "zipcode": "85750"
+    },
+    "b067!%22606022": {
+      "acres": "20",
+      "address": "20371 S Sonoita Highway 7",
+      "advanced": {
+        "view": [
+          "Mountain(s)",
+          "Sunset",
+          "Rural",
+          "Sunrise"
+        ],
+        "sewer": [
+          "Septic Tank"
+        ],
+        "country": [
+          "US"
+        ],
+        "fencing": [
+          "None"
+        ],
+        "horseYN": "no",
+        "taxYear": 2025,
+        "electric": [
+          "Electric Company"
+        ],
+        "mlsStatus": [
+          "Active"
+        ],
+        "directions": "From I-10, south on Hwy 83 for approximately 9 miles. Look for American Flag at mile marker 50",
+        "highSchool": [
+          "Cienega"
+        ],
+        "topography": [
+          "Graded"
+        ],
+        "disclosures": [
+          "Seller Prop Disclosure"
+        ],
+        "lotFeatures": [
+          "East/West Exposure",
+          "North/South Exposure"
+        ],
+        "lotSizeArea": 20,
+        "waterSource": [
+          "Shared Well"
+        ],
+        "listingTerms": [
+          "Cash",
+          "Conventional"
+        ],
+        "lotSizeUnits": [
+          "Acres"
+        ],
+        "mlsAreaMajor": [
+          "Extended Southeast"
+        ],
+        "mlsAreaMinor": [
+          "Extended Southeast"
+        ],
+        "associationYN": "no",
+        "lotSizeSource": [
+          "Assessor"
+        ],
+        "roadSurfaceType": [
+          "Dirt"
+        ],
+        "submitWithOffer": [
+          "Loan Pre-Qual",
+          "Proof of Funds"
+        ],
+        "taxAnnualAmount": 851.67,
+        "elementarySchool": [
+          "Acacia"
+        ],
+        "communityFeatures": [
+          "None"
+        ],
+        "lotSizeDimensions": "663 x 1370 x 657 x 1360",
+        "seniorCommunityYN": "no",
+        "highSchoolDistrict": [
+          "Vail"
+        ],
+        "roadResponsibility": [
+          "Owner Maintenance"
+        ],
+        "middleOrJuniorSchool": [
+          "Corona Foothills"
+        ],
+        "bathroomsTotalDecimal": 0,
+        "distanceToGasComments": "None",
+        "sourceSystemPlatformId": "T00000052",
+        "distanceToSewerComments": "Septic Needed",
+        "distanceToWaterComments": "Lot Line",
+        "sourceSystemPlatformName": "Flexmls",
+        "specialListingConditions": [
+          "None"
+        ],
+        "locationTaxLegalCommunity": [
+          "None"
+        ],
+        "distanceToElectricComments": "Lot Line",
+        "originatingSystemPlatformId": "T00000052",
+        "subdivisionRestrictionsCcRs": [
+          "Yes"
+        ],
+        "originatingSystemPlatformName": "Flexmls",
+        "distanceToPhoneServiceComments": "None",
+        "subdivisionRestrictionsAgeRestrictions": [
+          "No"
+        ],
+        "subdivisionRestrictionsDeedRestrictions": [
+          "Yes"
+        ]
+      },
+      "cityID": 48570,
+      "cityName": "Vail",
+      "countyID": 507,
+      "countyName": "Pima",
+      "dateAdded": "2026-03-06T00:23:24+00:00",
+      "dateModified": "2026-08-03T01:05:19+00:00",
+      "detailsURL": "b067/22606022",
+      "detailsUrlSlug": "20371-S-Sonoita-Highway-7-Vail-85641",
+      "displayAddress": "y",
+      "featured": "y",
+      "fullDetailsURL": "https://search.esteeshomesaz.com/idx/details/listing/b067/22606022/20371-S-Sonoita-Highway-7-Vail-85641",
+      "idxID": "b067",
+      "idxPropType": "Land",
+      "idxStatus": "active",
+      "image": {
+        "0": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260305234439055311000000-o.jpg",
+          "sizes": [],
+          "caption": "Lot View 3"
+        },
+        "1": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260305234436517802000000-o.jpg",
+          "sizes": [],
+          "caption": "Lot View 2"
+        },
+        "2": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260305234435252463000000-o.jpg",
+          "sizes": [],
+          "caption": "Lot View 3"
+        },
+        "3": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260305234437788354000000-o.jpg",
+          "sizes": [],
+          "caption": "Lot View 4"
+        },
+        "4": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260310011256241264000000-o.jpg",
+          "sizes": [],
+          "caption": "Lot View 5"
+        },
+        "5": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260310011258197194000000-o.jpg",
+          "sizes": [],
+          "caption": "Lot View 6"
+        },
+        "6": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260310011300410434000000-o.jpg",
+          "sizes": [],
+          "caption": "Lot View 7"
+        },
+        "7": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260305234424494066000000-o.jpg",
+          "sizes": [],
+          "caption": "Lot View 8"
+        },
+        "8": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260305234422916964000000-o.jpg",
+          "sizes": [],
+          "caption": "Lot View 9"
+        },
+        "9": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260305234853478910000000-o.jpg",
+          "sizes": [],
+          "caption": "Lot View 10"
+        },
+        "10": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260305234425692037000000-o.jpg",
+          "sizes": [],
+          "caption": "Lot View 11"
+        },
+        "11": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260305234426922063000000-o.jpg",
+          "sizes": [],
+          "caption": "Lot View 12"
+        },
+        "12": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260305234852114242000000-o.jpg",
+          "sizes": [],
+          "caption": "Lot View 13"
+        },
+        "13": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260305234849644309000000-o.jpg",
+          "sizes": [],
+          "caption": "Lot View 14"
+        },
+        "14": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260305234428291900000000-o.jpg",
+          "sizes": [],
+          "caption": "Lot View 15"
+        },
+        "15": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260305234429964099000000-o.jpg",
+          "sizes": [],
+          "caption": "Lot View 16"
+        },
+        "16": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260305234431250175000000-o.jpg",
+          "sizes": [],
+          "caption": "Lot View 17"
+        },
+        "17": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260305234432589916000000-o.jpg",
+          "sizes": [],
+          "caption": "Lot View 18"
+        },
+        "18": {
+          "url": "https://cdn.photos.sparkplatform.com/tar/20260305234433855824000000-o.jpg",
+          "sizes": [],
+          "caption": "Lot View 19"
+        },
+        "totalCount": 19
+      },
+      "latitude": 31.883786,
+      "listingAgentID": "52176",
+      "listingID": "22606022",
+      "listingOfficeID": "495204",
+      "listingPrice": "$140,000",
+      "longitude": -110.670661,
+      "mediaData": {
+        "vt": [
+          {
+            "id": "vtURL",
+            "url": "https://id.land/maps/f941547727508ec14097cb475c3a05bc/share",
+            "text": "",
+            "listingID": "22606022"
+          }
+        ]
+      },
+      "mlsPhotoCount": 19,
+      "mlsPtID": 2,
+      "narContact": "520-912-3018",
+      "ohCount": 0,
+      "parentPtID": 6,
+      "partialBaths": 0,
+      "price": 140000,
+      "priceBeforeReduction": 160000,
+      "priceData": {
+        "value": {
+          "raw": 140000,
+          "formatted": "$140,000"
+        },
+        "type": "active",
+        "label": "Price",
+        "field": "listingPrice"
+      },
+      "priceReductionDate": "2026-08-03T02:00:25+00:00",
+      "propStatus": "Active",
+      "propSubType": "Residential",
+      "propType": "Land",
+      "remarksConcat": "Most land for sale in Vail, AZ leaves you wondering where your water will come from. This 20-acre parcel already has a shared well at the lot line...in the desert Southwest, that changes everything!A private dirt road leads you to your own slice of Southern Arizona, where the best build site opens up to panoramic mountain views that stretch for miles. Imagine watching breathtaking desert sunsets paint the sky every evening from your own front porch.With RH zoning and room to build your dream home or homestead, this Tucson area gem is ready for you. The hardest part is already handled. All that's left is making it yours.",
+      "rntLse": "neither",
+      "rntLsePrice": 140000,
+      "sqFt": "871,197",
+      "state": "Arizona",
+      "streetDirection": "S",
+      "streetName": "Sonoita Highway",
+      "streetNumber": "20371",
+      "subdivision": "N/A",
+      "totalBaths": 0,
+      "unitNumber": "7",
+      "viewCount": 37,
+      "vtCount": 1,
+      "zipcode": "85641",
+      "zoning": "Pima County - RH"
+    }
+  }
+}

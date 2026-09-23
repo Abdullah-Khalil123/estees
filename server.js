@@ -415,11 +415,6 @@ app.get('/api/listings', async (req, res) => {
     }
 
     const raw = await idxRes.json();
-    fs.writeFileSync(
-      path.join(__dirname, 'raw.json'),
-      JSON.stringify(raw, null, 2),
-      'utf8',
-    );
 
     console.log('IDX top-level keys:', Object.keys(raw));
 
