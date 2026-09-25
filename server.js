@@ -12,6 +12,24 @@ app.use(cors());
 const IDX_ACCESS_KEY = process.env.IDX_ACCESS_KEY;
 const IDX_PARTNER_KEY = process.env.IDX_PARTNER_KEY;
 
+// Base URL your IDX listing pages live on, e.g.
+//   https://youraccount.idxbroker.com
+// or your own domain if you've mapped IDX pages onto it, e.g.
+//   https://www.yourbrokerage.com
+//
+// IDX returns detailsURL as a relative fragment like "b067/22617530",
+// which is useless to the browser on its own — this is what turns it
+// into a real, clickable link.
+const IDX_LISTING_BASE = (
+  process.env.IDX_LISTING_BASE || 'https://homes.idxbroker.com'
+).replace(/\/+$/, '');
+
+// Path prefix IDX uses for single-listing detail pages. Standard IDX
+// installs use /idx/details/listing — override only if yours differs.
+const IDX_LISTING_PATH = (
+  process.env.IDX_LISTING_PATH || '/idx/details/listing'
+).replace(/\/+$/, '');
+
 // Cities used for the /api/listings filter
 const TARGET_CITIES = ['tucson', 'vail', 'oro valley', 'marana'];
 
@@ -89,6 +107,9 @@ const MARKET_BASELINE = {
 };
 
 // ---- Static/local layers (schools, dining, shopping, parks) --------
+//
+// Each entry gets `mapsUrl` and `directionsUrl` attached at startup by
+// decorateLayers() below — don't add them by hand here.
 const STATIC_LAYERS = {
   schools: [
     {
@@ -278,6 +299,80 @@ function computeMedian(sorted) {
     : sorted[mid];
 }
 
+// ---- URL builders --------------------------------------------------
+
+// Turns whatever IDX hands us into an absolute, clickable listing URL.
+//
+// IDX is inconsistent here depending on endpoint and account config:
+//   "b067/22617530"                          → relative fragment
+//   "/idx/details/listing/b067/22617530"     → root-relative path
+//   "https://x.idxbroker.com/idx/details/…"  → already absolute
+//
+// Returns null when there's nothing usable, so the client can fall back
+// to hiding the link rather than rendering a dead href.
+function buildListingUrl(raw) {
+  if (!raw || typeof raw !== 'string') return null;
+
+  const value = raw.trim();
+  if (!value) return null;
+
+  // Already absolute — hand it straight back.
+  if (/^https?:\/\//i.test(value)) return value;
+
+  // Protocol-relative ("//host/path") — just add https.
+  if (value.startsWith('//')) return 'https:' + value;
+
+  // Root-relative ("/idx/details/listing/b067/22617530") — prepend host.
+  if (value.startsWith('/')) return IDX_LISTING_BASE + value;
+
+  // Bare fragment ("b067/22617530") — prepend host AND the details path.
+  return `${IDX_LISTING_BASE}${IDX_LISTING_PATH}/${value}`;
+}
+
+// Google Maps "search" deep link, pinned to exact coordinates.
+// Including the place name makes the result card show a real name
+// instead of a bare lat/lng label.
+function buildMapsUrl(lat, lng, title) {
+  const latN = toNumber(lat);
+  const lngN = toNumber(lng);
+  if (latN === null || lngN === null) return null;
+
+  const query = title ? `${title} ${latN},${lngN}` : `${latN},${lngN}`;
+
+  return (
+    'https://www.google.com/maps/search/?api=1&query=' +
+    encodeURIComponent(query)
+  );
+}
+
+// Google Maps turn-by-turn directions link to the same point.
+function buildDirectionsUrl(lat, lng) {
+  const latN = toNumber(lat);
+  const lngN = toNumber(lng);
+  if (latN === null || lngN === null) return null;
+
+  return (
+    'https://www.google.com/maps/dir/?api=1&destination=' +
+    encodeURIComponent(`${latN},${lngN}`)
+  );
+}
+
+// Attaches mapsUrl + directionsUrl to every entry in every static layer,
+// once at boot, so the route handlers stay dumb and fast.
+function decorateLayers(layers) {
+  const out = {};
+  for (const [name, entries] of Object.entries(layers)) {
+    out[name] = entries.map((entry) => ({
+      ...entry,
+      mapsUrl: buildMapsUrl(entry.lat, entry.lng, entry.title),
+      directionsUrl: buildDirectionsUrl(entry.lat, entry.lng),
+    }));
+  }
+  return out;
+}
+
+const LAYERS = decorateLayers(STATIC_LAYERS);
+
 const LAT_KEYS = ['latitude', 'lat', 'Latitude', 'geoLat'];
 const LNG_KEYS = ['longitude', 'lng', 'long', 'Longitude', 'geoLng'];
 
@@ -383,6 +478,12 @@ async function fetchIDXEndpoint(endpoint, headers) {
 }
 
 // ---- /api/listings -------------------------------------------------
+//
+// Each listing now returns:
+//   url            → absolute, clickable IDX detail page URL (or null)
+//   urlPath        → the raw IDX fragment, kept for debugging/routing
+//   mapsUrl        → Google Maps pin for the property
+//   directionsUrl  → Google Maps directions to the property
 
 app.get('/api/listings', async (req, res) => {
   try {
@@ -416,20 +517,8 @@ app.get('/api/listings', async (req, res) => {
 
     const raw = await idxRes.json();
 
-    console.log('IDX top-level keys:', Object.keys(raw));
-
     const listingsFound = [];
     findListings(raw, listingsFound);
-    console.log(
-      'Objects matched as listings (have lat/lng):',
-      listingsFound.length,
-    );
-    if (listingsFound.length) {
-      console.log(
-        'Sample matched listing:',
-        JSON.stringify(listingsFound[0], null, 2),
-      );
-    }
 
     const listings = listingsFound
       .map((p) => {
@@ -451,21 +540,34 @@ app.get('/api/listings', async (req, res) => {
           const beds = pickField(p, ['bedrooms', 'beds', 'totalBedrooms']) ?? 0;
           const baths =
             pickField(p, ['totalBaths', 'baths', 'totalBathrooms']) ?? 0;
-          const url = pickField(p, ['detailsURL', 'fullDetailsURL', 'url']);
           const { image, images } = extractImages(p);
+
+          // Prefer fullDetailsURL — IDX returns that one already absolute
+          // on most accounts. detailsURL is the relative fragment.
+          const rawUrl = pickField(p, ['fullDetailsURL', 'detailsURL', 'url']);
+
+          const title =
+            address ||
+            `${streetNumber || ''} ${streetName || ''}`.trim() ||
+            'Property';
+
+          // Give Maps the street address + city when we have it — much
+          // better place matching than coordinates alone.
+          const mapsLabel = city ? `${title}, ${city}, AZ` : title;
 
           return {
             _city: city,
             lat,
             lng,
-            title:
-              address ||
-              `${streetNumber || ''} ${streetName || ''}`.trim() ||
-              'Property',
+            title,
             detail:
               `${formatPrice(price)} · ${beds} bed / ${baths} bath · ${city || ''}`.trim(),
-            url: url || null,
+            url: buildListingUrl(rawUrl),
+            urlPath: rawUrl || null,
+            mapsUrl: buildMapsUrl(lat, lng, mapsLabel),
+            directionsUrl: buildDirectionsUrl(lat, lng),
             image,
+            images,
           };
         } catch (e) {
           console.error('Skipped a malformed listing:', e.message);
@@ -488,8 +590,6 @@ app.get('/api/listings', async (req, res) => {
         return TARGET_CITIES.includes(city);
       })
       .map(({ _city, ...rest }) => rest);
-
-    console.log('Final listings returned to frontend:', listings.length);
 
     return res.json(listings);
   } catch (err) {
@@ -563,8 +663,6 @@ app.get('/api/market-stats', async (req, res) => {
       }
     }
 
-    console.log(`market-stats: ${allListings.length} deduplicated listings`);
-
     // Group listing prices by normalised city key.
     const cityPrices = {};
 
@@ -611,11 +709,6 @@ app.get('/api/market-stats', async (req, res) => {
       };
     });
 
-    console.log(
-      'market-stats response:',
-      stats.map((s) => `${s.city}: ${s.medianPriceFmt} (${s.priceSource})`),
-    );
-
     return res.json(stats);
   } catch (err) {
     console.error('MARKET STATS ERROR:', err);
@@ -626,12 +719,17 @@ app.get('/api/market-stats', async (req, res) => {
 });
 
 // ---- Static layer routes -------------------------------------------
+//
+// Each entry carries:
+//   mapsUrl        → Google Maps pin for the place
+//   directionsUrl  → Google Maps directions to the place
 
-app.get('/api/schools', (req, res) => res.json(STATIC_LAYERS.schools));
-app.get('/api/dining', (req, res) => res.json(STATIC_LAYERS.dining));
-app.get('/api/shopping', (req, res) => res.json(STATIC_LAYERS.shopping));
-app.get('/api/parks', (req, res) => res.json(STATIC_LAYERS.parks));
+app.get('/api/schools', (req, res) => res.json(LAYERS.schools));
+app.get('/api/dining', (req, res) => res.json(LAYERS.dining));
+app.get('/api/shopping', (req, res) => res.json(LAYERS.shopping));
+app.get('/api/parks', (req, res) => res.json(LAYERS.parks));
 
 app.listen(3000, () => {
   console.log('IDX proxy running on http://localhost:3000');
+  console.log('Listing links resolving against:', IDX_LISTING_BASE);
 });
